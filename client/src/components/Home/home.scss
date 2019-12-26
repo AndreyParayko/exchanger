@@ -1,0 +1,84 @@
+.home {
+  .currency {
+    width: 100%;
+    height: 295px;
+    background-color: #51e26e;
+    border-top: 2px solid #50bfc5;
+    border-bottom: 2px solid #50bfc5;
+    display: inline-block;
+
+    #exchangeName {
+      float: left;
+      width: 320px;
+      font-size: 50px;
+      font-weight: 800;
+      margin: 20px 0 0 60px;
+    }
+    #info {
+      // position: relative;
+      float: left;
+      font-weight: 800;
+      margin-left: 60px;
+      margin-top: 20px;
+      width: 320px;
+    }
+    #infoTrade {
+      float: right;
+      margin: 55px 80px 37px 0;
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .flag {
+      // float: right;
+      height: 40px;
+      width: 110px;
+      // margin-top: 1px;
+      // margin-left: -14px;
+    }
+    .currencyHave,
+    .currencyWant {
+      float: right;
+      // margin-top: 1px;
+      margin-right: 26px;
+      height: 36px;
+      width: 220px;
+    }
+
+    .USD {
+      // background-image: url(../../assets/Images/USD.png);
+      // font-size: 28px;
+    }
+    .butChange {
+      margin: 20px 15px 0 0;
+      float: right;
+      height: 55px;
+      width: 45px;
+      background: url(../../assets/Images/swap.jpg) no-repeat;
+      background-size: 100%;
+      transform: rotate(90deg);
+    }
+  }
+  #ex_rates {
+    margin: 20px 0 0 80px;
+    #ex_p1 {
+      font-size: 26px;
+      font-weight: 900;
+    
+    }
+    #ex_p2 {
+      margin: 30px 0 40px;
+    }
+    .swapBtn {
+      height: 55px;
+      width: 45px;
+      background: url(../../assets/Images/swap.jpg) no-repeat;
+      background-size: 100%;
+    }
+    .homeBottom {
+      div {
+        display: inline-block;
+      }
+    }
+  }
+}
